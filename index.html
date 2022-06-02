@@ -4,11 +4,80 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./css/main.css">
-  <title>Template</title>
+  <!-- <link rel="stylesheet" href="./css/main.css"> -->
+  <link rel="stylesheet" href="./css/main.min.css">
+  <title>Input_type</title>
 </head>
 <body>
+  
+  <section class="content">
+    
+    <div class="container">
+      
+      <div class="content__inner">
+        
+        <div class="content__info info">
+          
+          <div class="info__pro">
+            <span class="info__chouse">
+              frontend and backend
+            </span>
+            
+            <h1 class="info__title">
+              Learn to program by watching professionals
+            </h1>
+            
+            <p class="info__text">
+              See how experienced developers solve problems in real time
+            </p>
+          </div>
+          
+          <div class="info__prisce">
+            <a class="info__link" href="#">
+              <strong>Try it free 7 days,</strong>then $20/mo
+            </a>
+          </div>
+          
+        </div>
+        
+        <div class="content__post post">
+          
+          <h2 class="post__title">
+            Sign up for the course and get free 7 days
+          </h2>
+          
+          <form class="post__form form" action="https://echo.htmlacademy.ru/courses" method="POST" autocomplete="off">
+            
+            <input class="form__input" type="text" name="user_name" maxlength="50" minlength="2" aria-label="Your Name" value="Anna " required>
 
+            <input class="form__input" type="text" name="user_surname" maxlength="50" minlength="2" aria-label="Your Surname"  placeholder="Last Name" required>
+
+            <input class="form__input" type="email" name="user_email" maxlength="50" minlength="2" aria-label="Your Email"  placeholder="Email Address" required>
+
+            <input class="form__input" type="password" name="user_password" maxlength="50" minlength="2" aria-label="Your Password"  placeholder="Email Password" required>
+
+            <button class="form__button" type="submit">
+              Claim your free trial
+            </button>
+
+            
+          </form>
+
+          <p class="post__text text">
+            By clicking the button, you are agreeing to our 
+            <a class="post__link" href="#">
+              Terms and Services
+            </a> 
+          </p>
+          
+        </div>
+        
+      </div>
+      
+    </div>
+    
+  </section>
+  
   
 </body>
 </html>
