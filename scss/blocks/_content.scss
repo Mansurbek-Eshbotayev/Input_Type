@@ -175,6 +175,10 @@ border: none;
 margin-bottom: 8px;
 }
 
+.form__button:focus{
+  outline: none;
+}
+
 .post__text{
   margin: 0;
   text-align: center;
